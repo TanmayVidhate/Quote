@@ -16,19 +16,33 @@ body{
 }
 
 .container{
+    margin: 5vw;
     text-align: center;
+    background-color: white;
     transform: translate(50px);
-    width: 50%;
+    width: 40%;
     height: fit-content;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    border-radius: 5px;
 }
 
 .headtxt{
     font-size: 3vw;
+    font-weight: bold;
+    margin-top: 4vw;
 }
 
 .quote::after, .quote::before{
     content: '"';
+}
+
+#quote{
+    
+    width: 80%;
+    margin: auto;
+    padding: 2vw 3vw;
+    text-align: center;
+    /* border: 1px solid red; */
 }
 
 button{
