@@ -1,44 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
 
-body{
-    background-color:rgb(245, 235, 224);
-    display: flex;
+body {
+    background-color: rgb(245, 235, 224);
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
-.container{
-    margin: 5vw;
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     text-align: center;
     background-color: white;
-    transform: translate(50px);
     width: 40%;
     height: fit-content;
-    /* border: 2px solid red; */
     border-radius: 5px;
     box-shadow: 5px 5px 2px 2px gray;
 }
 
-#headtxt{
+#headtxt {
     width: 100%;
     font-size: 3vw;
     font-weight: bold;
     margin-top: 4vw;
 }
 
-#quote::after, #quote::before{
+#quote::after,
+#quote::before {
     content: '"';
 }
 
-#quote{
+#quote {
     /* font-size: 1.5vw; */
     width: 80%;
     margin: auto;
@@ -48,16 +52,16 @@ body{
     /* border: 1px solid red; */
 }
 
-#writer{
+#writer {
     font-weight: 500;
 }
 
-#writer::before{
-    content: '-';
+#writer::before {
+    content: '- ';
 
 }
 
-button{
+button {
     width: 10vw;
     padding: 0.8vw 1vw;
     margin: 2vw;
