@@ -24,24 +24,27 @@ body{
     height: fit-content;
     /* border: 2px solid red; */
     border-radius: 5px;
+    box-shadow: 5px 5px 2px 2px gray;
 }
 
 #headtxt{
+    width: 100%;
     font-size: 3vw;
     font-weight: bold;
     margin-top: 4vw;
 }
 
-.quote::after, .quote::before{
+#quote::after, #quote::before{
     content: '"';
 }
 
 #quote{
-    
+    /* font-size: 1.5vw; */
     width: 80%;
     margin: auto;
     padding: 2vw 3vw;
     text-align: center;
+    font-weight: 500;
     /* border: 1px solid red; */
 }
 
