@@ -30,3 +30,15 @@ body{
 .quote::after, .quote::before{
     content: '"';
 }
+
+button{
+    width: 10vw;
+    padding: 0.8vw 1vw;
+    margin: 2vw;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(160, 222, 255);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
