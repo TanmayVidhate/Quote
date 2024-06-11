@@ -1,0 +1,1 @@
+let headtxt = document.getElementsByClassName
