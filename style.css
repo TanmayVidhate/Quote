@@ -6,4 +6,16 @@
 
 body{
     background-color:rgb(245, 235, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.container{
+    text-align: center;
+    transform: translate(50px);
+    width: 50%;
+    height: fit-content;
+    border: 2px solid red;
+}
+
