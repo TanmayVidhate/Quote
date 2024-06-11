@@ -48,6 +48,15 @@ body{
     /* border: 1px solid red; */
 }
 
+#writer{
+    font-weight: 500;
+}
+
+#writer::before{
+    content: '-';
+
+}
+
 button{
     width: 10vw;
     padding: 0.8vw 1vw;
